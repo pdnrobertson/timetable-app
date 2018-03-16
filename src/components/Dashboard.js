@@ -1,9 +1,10 @@
 import React from 'react';
 import Timetable from './Timetable';
+import AddEvent from './AddEvent';
 
 const Dashboard = () => (
     <div>
-        <p>This is the dashboard</p>
+        <AddEvent />
         <Timetable />
     </div>
 );
