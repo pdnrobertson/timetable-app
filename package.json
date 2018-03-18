@@ -17,6 +17,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
+    "express": "^4.16.3",
     "fullcalendar-reactwrapper": "^1.0.7",
     "live-server": "^1.2.0",
     "moment": "^2.21.0",
@@ -32,6 +33,7 @@
     "redux": "^3.7.2",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
+    "uuid": "^3.2.1",
     "validator": "8.0.0",
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"

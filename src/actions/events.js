@@ -1,13 +1,20 @@
-
+import uuid from 'uuid';
 
 // Add Event
 export const addEvent = (
     {
-      subject = ''
+      subject = '',
+      title = '',
+      start = 0,
+      end = 0
     } = {}
   ) => ({
     type: 'ADD_EVENT',
     event: {
-      subject
+      id: uuid(),
+      subject,
+      title,
+      start,
+      end
     }
 });
