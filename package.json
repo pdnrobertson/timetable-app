@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
@@ -35,7 +36,10 @@
     "style-loader": "0.18.2",
     "uuid": "^3.2.1",
     "validator": "8.0.0",
-    "webpack": "3.1.0",
+    "webpack": "3.1.0"
+    
+  },
+  "devDependencies": {
     "webpack-dev-server": "2.5.1"
   }
 }
