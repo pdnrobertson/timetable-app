@@ -15,7 +15,7 @@ const Timetable = (props) => (
         }}
         defaultView={'agendaWeek'}  // Week-only view
         allDaySlot={false}
-        defaultDate={moment()}  // Current day
+        defaultDate={moment('2018-26-Feb')}  // Current day
         events = {props.events}
 
         minTime={"08:00:00"}

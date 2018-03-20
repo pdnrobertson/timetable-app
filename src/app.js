@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import moment from 'moment';
-
 import { Provider } from 'react-redux';
 import configureStore from './stores/store';
-
 import AppRouter from './routers/AppRouter';
 
 // Import styles

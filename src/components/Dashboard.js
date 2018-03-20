@@ -1,10 +1,10 @@
 import React from 'react';
 import Timetable from './Timetable';
-import AddEvent from './AddEvent';
+import AddSubject from './AddSubject';
 
 const Dashboard = () => (
     <div>
-        <AddEvent />
+        <AddSubject />
         <Timetable />
     </div>
 );
