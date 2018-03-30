@@ -7,6 +7,9 @@ export default (state = subjectDefaultState, action) => {
                 ...state,
                 action.subject
             ];
+        
+        case('DELETE_SUBJECT'):
+            return state.filter((subject) => subject != action.subject );
 
         default:
             return state;

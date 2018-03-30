@@ -9,6 +9,9 @@ export default (state = eventsDefaultState, action) => {
                 action.event
             ];
 
+        case ('DELETE_EVENT'):
+            return state.filter((event) => event.subject != action.subject);
+
         default:
             return state;
     }

@@ -5,11 +5,13 @@ import { Provider } from 'react-redux';
 import configureStore from './stores/store';
 import AppRouter from './routers/AppRouter';
 
+
 // Import styles
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'fullcalendar-reactwrapper/dist/css/fullcalendar.min.css';
 import { addEvent } from './actions/events';
+import { addSubject, deleteSubject } from './actions/subjects';
 
 const store = configureStore();
 

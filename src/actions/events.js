@@ -18,3 +18,10 @@ export const addEvent = (
       end
     }
 });
+
+export const deleteEvent = (
+  { subject } = {}
+) => ({
+  type: 'DELETE_EVENT',
+  subject
+});
